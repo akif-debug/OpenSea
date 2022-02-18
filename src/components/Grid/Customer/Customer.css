@@ -1,0 +1,67 @@
+.container-fluid.customer {
+	text-align: center;
+	padding-top: 16rem !important;
+}
+.container-fluid.customer .customer-heading {
+	font-family: var(--second-font);
+	color: #1B2E78;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 52px;
+}
+.container-fluid.customer .customer-heading-para {
+	font-size: 18px !important;
+	line-height: 27px;
+	color: #232323 !important;
+	width: 400px;
+	margin: auto;
+	font-weight: 300;
+	padding: .65rem 0 2rem 0;
+}
+.container-fluid.customer .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 6rem;
+}
+.container-fluid.customer .col-lg-4 {
+	text-align: center;
+	padding: 0 1rem;
+}
+.container-fluid.customer .col-lg-4 .content-div {
+	height: 375px;
+	/*280*/
+}
+.container-fluid.customer .col-lg-4 .content-div img {
+	width: 100%;
+}
+.container-fluid.customer .col-lg-4 .text-content-div {
+	height: 200px;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	background: #fff !important;
+}
+.container-fluid.customer .col-lg-4 .text-content-div .customer-img {
+	margin-top: -2.5rem;
+}
+.container-fluid.customer .col-lg-4 .text-content-div .customer-name {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 20px 0 0 0;
+	line-height: 25px;
+	font-size: 25px;
+}
+.container-fluid.customer .col-lg-4 .text-content-div .customer-name .bluetick {
+	padding-left: 4.5px;
+}
+.container-fluid.customer .col-lg-4 .text-content-div .customer-para {
+	margin: 0 !important;
+	padding: 20px 0 0 0 !important;
+	line-height: 25px !important;
+	font-size: 16px !important;
+	width: 300px !important;
+	margin: auto !important;
+	color: #232323 !important;
+}

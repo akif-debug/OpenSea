@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--first-font) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*::-webkit-scrollbar {
+  width: .5rem !important;
+}
+*::-webkit-scrollbar-track {
+    background: #458DEA;
+}
+*::-webkit-scrollbar-thumb {
+    background: rgba(38, 63, 155, 1);
+}
+:root {
+  --first-font: 'Sora';
+  --second-font: 'Quarto';
+}
+.container-fluid {
+  padding: 0 6rem !important;
+}

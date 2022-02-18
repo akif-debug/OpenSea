@@ -1,0 +1,80 @@
+#grid {
+	background-image: linear-gradient(to bottom, rgba(232, 220, 237, .75), rgba(232, 220, 237, .75), rgba(165, 185, 255, .55)), url(../../assets/huge-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10.45rem 0;
+}
+#grid .container-fluid {  }
+#grid .container-fluid .row .col-lg-8 {  }
+#grid .container-fluid .row .col-lg-8 .col-lg-6 {  }
+#grid .container-fluid .row .col-lg-8 .col-lg-6 img.img-1 {
+	box-shadow: 0 0 15px 0px rgba(232, 220, 237, 1);
+	margin-left: 1.45rem;
+}
+#grid .container-fluid .row .col-lg-8 .col-lg-6 img.img-2 {
+	box-shadow: 0 0 15px 0px rgba(232, 220, 237, 1);
+	margin-top: .97rem;
+	margin-right: 3rem !important;
+	position: absolute;
+	right: 48%;
+}
+#grid .container-fluid .row .col-lg-8 .col-lg-6 img.img-3 {
+	box-shadow: 0 0 15px 0px rgba(232, 220, 237, 1);
+	margin-top: 1.3rem;
+	margin-left: .75rem;
+}
+#grid .container-fluid .row .col-lg-8 .col-lg-6 img.img-4 {
+	box-shadow: 0 0 15px 0px rgba(232, 220, 237, 1);
+	position: absolute;
+	right: 49.8%;
+	margin-top: 1.3rem;
+}
+#grid .container-fluid .row .col-lg-8 .col-lg-6 img.img-4:hover {
+
+}
+#grid .container-fluid .row .col-lg-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#grid .container-fluid .row .col-lg-4 h1 {
+	font-family: var(--second-font);
+	font-weight: 900;
+	color: #1B2E78;
+}
+#grid .container-fluid .row .col-lg-4 p {
+	color: #232323;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: .02em;
+	width: 400px;
+	padding: 1rem 0 3rem 0;
+}
+#grid .container-fluid .row .col-lg-4 button {
+	background: #458DEA;
+	border: 2px solid #458DEA;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: white;
+	width: 150px;
+	height: 50px;
+}
+#grid .container-fluid .row .col-lg-4 button:hover {
+	background: transparent;
+	border: 2px solid #458DEA;
+	color: #458DEA;
+}
+/*---------------------------------*/
+.brand-container {
+	padding-top: 8rem !important;
+}
+.brand-container .row .col-lg-12 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+}
+.brand-container .row .col-lg-12 img {
+	padding: 0 3rem;
+}

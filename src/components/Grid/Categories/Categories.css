@@ -1,0 +1,71 @@
+#Categories {
+	padding-top: 16rem !important;
+	text-align: center;
+}
+#Categories .categories-heading {
+	font-family: var(--second-font);
+	color: #1B2E78;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 52px;	
+}
+#Categories .categories-para {
+	font-size: 18px !important;
+	line-height: 27px;
+	color: #232323 !important;
+	font-weight: 300;
+	padding: .65rem 0 4.5rem 0;
+	width: 400px;
+	margin: auto;
+}
+#Categories .container-fluid {
+	display: flex;
+	justify-content: center !important;
+	padding-right: 1rem !important;
+}
+#Categories .container-fluid .col-lg-3 {
+	display: flex;
+	margin-bottom: 4rem;
+	text-align: left;
+}
+#Categories .container-fluid .col-lg-3 .content-box {
+	display: flex;
+	height: 114px;
+}
+#Categories .container-fluid .col-lg-3 .content-box h4 {
+	color: rgba(38, 63, 155, 1);
+	font-family: var(--second-font);
+	font-style: normal;
+	padding-top: .55rem;
+	padding-left: 15px;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 25px;
+}
+#Categories .container-fluid .col-lg-3 .content-box p {
+	width: 170px;
+	height: 63px;
+	padding-top: .75rem;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: var(--first-font);
+	color: #000000;
+	font-weight: 400;
+}
+#Categories .container-fluid .col-lg-3.second-col {
+	padding-top: 3.5rem;
+}
+#Categories button {
+	background: #458DEA;
+	border: 2px solid #458DEA;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: white;
+	width: 200px;
+	height: 50px;
+	margin-top: 3.85rem;
+}
+#Categories button:hover {
+	background: transparent;
+	color: rgba(38, 63, 155, 1);
+}
